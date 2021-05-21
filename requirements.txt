@@ -1,0 +1,23 @@
+# Preinstalled Packages that should already be installed.
+tqdm
+os
+os.path
+math
+random
+csv
+datetime
+typing
+string
+
+# Package for processing jsonlines (JSONL) files
+jsonlines
+
+# Python library connecting to twitter api (hydration of tweets)
+twarc
+
+# Sentiment analysis program
+textBlob
+
+# Plotting graphs library
+matplotlib
+
