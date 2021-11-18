@@ -1,5 +1,7 @@
-Introduction: Problem and Research Description
-==============================================
+# Climate Change tweet Analyser
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+## Introduction: Problem and Research Description
 
 Over the last couple of decades, awareness about climate change has
 increased significantly. In a survey done this year, 60% of Americans
@@ -50,8 +52,8 @@ sentimental value of climate change tweets in periods of natural
 disasters would be more negative than that of other climate change
 tweets.
 
-Dataset Description 
-===================
+## Dataset Description 
+
 
 Climate Change Tweets Ids: a dataset provided by Harvard Dataverse with
 tweet ids from 39,622,026 tweets related to climate change between
@@ -73,8 +75,8 @@ information, but we only used the ’incidentBeginDate’ column. The full
 dataset spans many decades but we only used the years for which we had
 tweet data.^9^
 
-Computational Overview 
-======================
+## Computational Overview 
+
 
 We first take our dataset of 40 million tweet IDs and shorten it a
 manageable size. We have two options for this processing[^1]:
@@ -132,8 +134,7 @@ a result of natural disasters. The data is visualized as a scatter plot
 of sentiment over time with the disaster tweets being in red while the
 non-disaster tweets being in blue.
 
-Instructions for obtaining data sets and running program 
-========================================================
+## Instructions for obtaining data sets and running program 
 
 Please make sure all imports in the *requirements.txt* file have been
 installed.
@@ -164,8 +165,7 @@ the person running is unable to obtain an API Key for twitter.
 Then run the *main.py*. Read the main statement in the program for more
 information on what to run.
 
-Changes between proposal and final submission 
-=============================================
+## Changes between proposal and final submission 
 
 In our proposal, we planned to measure the ideological differences
 between two of the US’s major political parties, the Republicans and the
@@ -180,8 +180,7 @@ tweets posted at a time when no natural disasters had occurred recently.
 This shift in focus from a specific group of people, to the general
 public made it much easier to find tweets to analyse.
 
-Discussion {#discussion .unnumbered}
-==========
+## Discussion {#discussion .unnumbered}
 
 At the beginning of the project, our group predicted that the average
 sentiment of tweets pertaining to climate change would be more negative
@@ -247,8 +246,7 @@ potential for more meaningful findings in analysis conducted on a larger
 set of data and in an algorithm that measures the display of another
 emotion.
 
-References
-==========
+## References
 
 ^1^Funk, C., Kennedy, B. (2020, July 27). How Americans see climate
 change and the environment in 7 charts. Retrieved December 11, 2020,
